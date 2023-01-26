@@ -14,6 +14,4 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: desynchronized_left
-  - board: seeeduino_xiao_ble
-    shield: desynchronized_right
+    shield: trackball
