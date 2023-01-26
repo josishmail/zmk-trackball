@@ -8,7 +8,9 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-            bindings = <&kp A &kp B>;
+            bindings = <
+            &kp A &kp B
+            >;
             trackball-bindings = <&tmv>;
         };
     };
