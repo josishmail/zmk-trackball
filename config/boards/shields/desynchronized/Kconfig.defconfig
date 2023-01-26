@@ -1,0 +1,16 @@
+if SHIELD_TRACKBALL
+
+config ZMK_KEYBOARD_NAME
+	default "trackball"
+
+config SPI
+	default y
+
+config ZMK_SPLIT
+	default n
+
+config ZMK_USB
+	default y
+
+
+endif

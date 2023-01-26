@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: zmk
+      url-base: https://github.com/josishmail
+  projects:
+    - name: zmk
+      remote: zmk
+      revision: ptdevice-refactor
+      import: app/west.yml
+  self:
+    path: config
